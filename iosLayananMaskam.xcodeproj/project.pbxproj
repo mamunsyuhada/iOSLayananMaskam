@@ -13,6 +13,8 @@
 		6FAF5F3124792FAE00233ADA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAF5F2F24792FAE00233ADA /* Main.storyboard */; };
 		6FAF5F3324792FB000233ADA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FAF5F3224792FB000233ADA /* Assets.xcassets */; };
 		6FAF5F3624792FB000233ADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FAF5F3424792FB000233ADA /* LaunchScreen.storyboard */; };
+		6FFA3A2B24907DD900B51473 /* BarangTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FFA3A2924907DD900B51473 /* BarangTableViewCell.swift */; };
+		6FFA3A2C24907DD900B51473 /* BarangTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FFA3A2A24907DD900B51473 /* BarangTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		6FAF5F3224792FB000233ADA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FAF5F3524792FB000233ADA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FAF5F3724792FB000233ADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FFA3A2924907DD900B51473 /* BarangTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarangTableViewCell.swift; sourceTree = "<group>"; };
+		6FFA3A2A24907DD900B51473 /* BarangTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BarangTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				6FAF5F3224792FB000233ADA /* Assets.xcassets */,
 				6FAF5F3424792FB000233ADA /* LaunchScreen.storyboard */,
 				6FAF5F3724792FB000233ADA /* Info.plist */,
+				6FFA3A2924907DD900B51473 /* BarangTableViewCell.swift */,
+				6FFA3A2A24907DD900B51473 /* BarangTableViewCell.xib */,
 			);
 			path = iosLayananMaskam;
 			sourceTree = "<group>";
@@ -127,6 +133,7 @@
 			files = (
 				6FAF5F3624792FB000233ADA /* LaunchScreen.storyboard in Resources */,
 				6FAF5F3324792FB000233ADA /* Assets.xcassets in Resources */,
+				6FFA3A2C24907DD900B51473 /* BarangTableViewCell.xib in Resources */,
 				6FAF5F3124792FAE00233ADA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				6FAF5F2E24792FAE00233ADA /* ViewController.swift in Sources */,
 				6FAF5F2A24792FAE00233ADA /* AppDelegate.swift in Sources */,
+				6FFA3A2B24907DD900B51473 /* BarangTableViewCell.swift in Sources */,
 				6FAF5F2C24792FAE00233ADA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
