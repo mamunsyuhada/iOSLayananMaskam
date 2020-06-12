@@ -26,16 +26,16 @@
                     <rect key="frame" x="0.0" y="0.0" width="414" height="229"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EUZ-BY-vYz">
-                            <rect key="frame" x="28" y="124" width="211" height="55"/>
+                            <rect key="frame" x="28" y="131" width="211" height="48"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="211" id="bli-5q-MUE"/>
                             </constraints>
-                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="40"/>
+                            <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="35"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_default_barang" translatesAutoresizingMaskIntoConstraints="NO" id="hHz-3E-DD3">
-                            <rect key="frame" x="247" y="111" width="80" height="80"/>
+                            <rect key="frame" x="313" y="111" width="80" height="80"/>
                             <constraints>
                                 <constraint firstAttribute="width" secondItem="hHz-3E-DD3" secondAttribute="height" multiplier="1:1" id="5ki-Eq-jI6"/>
                             </constraints>
@@ -43,10 +43,9 @@
                     </subviews>
                     <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="hHz-3E-DD3" secondAttribute="trailing" constant="87" id="5LL-KW-CMf"/>
-                        <constraint firstItem="hHz-3E-DD3" firstAttribute="top" secondItem="Lus-al-F5a" secondAttribute="top" constant="111" id="DZk-hT-JB8"/>
+                        <constraint firstAttribute="trailing" secondItem="hHz-3E-DD3" secondAttribute="trailing" constant="21" id="5LL-KW-CMf"/>
                         <constraint firstAttribute="bottom" secondItem="hHz-3E-DD3" secondAttribute="bottom" constant="38" id="IP3-JM-hFZ"/>
-                        <constraint firstItem="hHz-3E-DD3" firstAttribute="leading" secondItem="EUZ-BY-vYz" secondAttribute="trailing" constant="8" id="JJ2-zJ-MZ1"/>
+                        <constraint firstItem="hHz-3E-DD3" firstAttribute="top" secondItem="Lus-al-F5a" secondAttribute="top" constant="111" id="S8b-au-DRV"/>
                         <constraint firstItem="EUZ-BY-vYz" firstAttribute="leading" secondItem="Lus-al-F5a" secondAttribute="leading" constant="28" id="ko1-TS-4Vh"/>
                         <constraint firstAttribute="bottom" secondItem="EUZ-BY-vYz" secondAttribute="bottom" constant="50" id="moU-XW-d33"/>
                     </constraints>
@@ -64,7 +63,8 @@
                     <constraints>
                         <constraint firstAttribute="height" constant="57.999999999999943" id="Tgv-KK-woa"/>
                     </constraints>
-                    <state key="normal" title="Button">
+                    <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                    <state key="normal" title="Pinjam Barang">
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                 </button>

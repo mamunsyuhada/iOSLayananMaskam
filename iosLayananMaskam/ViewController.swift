@@ -8,25 +8,25 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDataSource {
-    
+class ViewController: UIViewController {
     
     @IBOutlet weak var barangTableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         self.navigationItem.title = "Layanan Peminjaman"
         
+        barangTableView.delegate = self
         barangTableView.dataSource = self
         barangTableView.register(UINib(nibName: "BarangTableViewCell", bundle: nil), forCellReuseIdentifier: "BarangCell")
     }
     
 }
 
-extension ViewController: UITableViewDelegate{
-    
+
+extension ViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // Digunakan untuk menambahkan total item yang akan muncul di dalam Table View
         return barangs.count
     }
     
@@ -50,4 +50,14 @@ extension ViewController: UITableViewDelegate{
         return cell
     }
 }
+
+extension ViewController: UITableViewDelegate{
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detail = DetailBarangViewController(nibName: "DetailBarangViewController", bundle: nil)
+        
+        detail.barang = barangs[indexPath.row]
+        self.navigationController?.pushViewController(detail, animated: true)
+    }
+}
+
 

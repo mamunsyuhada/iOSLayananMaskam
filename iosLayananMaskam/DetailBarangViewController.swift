@@ -16,8 +16,16 @@ class DetailBarangViewController: UIViewController {
     @IBOutlet weak var descBarang: UILabel!
     @IBOutlet weak var btnPinjam: UIButton!
     
+    var barang: Barang?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        if let result = barang{
+            iconBarang.image = result.ico
+            namaBarang.text = result.nama
+            imageBarang.image = result.photo
+            descBarang.text = result.desc
+        }
     }
 }

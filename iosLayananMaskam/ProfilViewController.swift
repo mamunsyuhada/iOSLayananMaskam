@@ -21,7 +21,6 @@ class ProfilViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         photoProfile.image = profil.photo
         photoProfile.makeRounded()
         
@@ -32,7 +31,6 @@ class ProfilViewController: UIViewController {
         emailProfil.text = profil.email
         emailProfil.backgroundColor = UIColor(red: 243/255.0, green: 167/255.0, blue: 52/255.0, alpha: 1.0)
         emailProfil.textColor = UIColor.white
-        
         
     }
     
