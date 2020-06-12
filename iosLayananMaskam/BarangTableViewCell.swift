@@ -9,7 +9,10 @@
 import UIKit
 
 class BarangTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var photoBarang: UIImageView!
+    @IBOutlet weak var hargaBarang: UILabel!
+    @IBOutlet weak var namaBarang: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
