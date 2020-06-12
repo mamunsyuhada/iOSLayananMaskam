@@ -91,28 +91,46 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="68O-RH-Bmc">
+                                        <rect key="frame" x="28" y="29" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="40" id="hS8-gY-9Dm"/>
+                                            <constraint firstAttribute="height" constant="40" id="n3G-Ud-Zeg"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="back_arrow"/>
+                                        <connections>
+                                            <action selector="backButton:" destination="EnQ-Hb-ldh" eventType="touchUpInside" id="IqB-Jx-nhy"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstItem="XWF-Gb-KHs" firstAttribute="centerX" secondItem="7dQ-yK-6Vf" secondAttribute="centerX" id="1o9-G5-Aya"/>
                                     <constraint firstItem="XWF-Gb-KHs" firstAttribute="leading" secondItem="7dQ-yK-6Vf" secondAttribute="leading" constant="28" id="ABC-co-D4n"/>
+                                    <constraint firstItem="68O-RH-Bmc" firstAttribute="leading" secondItem="XWF-Gb-KHs" secondAttribute="leading" id="HLW-HQ-Xgq"/>
                                     <constraint firstAttribute="height" constant="229" id="nix-C4-WzZ"/>
                                     <constraint firstAttribute="bottom" secondItem="XWF-Gb-KHs" secondAttribute="bottom" constant="38" id="oN8-77-IDx"/>
+                                    <constraint firstItem="XWF-Gb-KHs" firstAttribute="top" secondItem="68O-RH-Bmc" secondAttribute="bottom" constant="67" id="ox1-CU-KOA"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="bbo-qs-spK">
                                 <rect key="frame" x="0.0" y="229" width="375" height="292"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZ0-78-FMM">
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="XnG-cK-EOE">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="183.5"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6uZ-rQ-1Qw">
-                                                <rect key="frame" x="147" y="46" width="100" height="100"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZ0-78-FMM">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="183.5"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6uZ-rQ-1Qw">
+                                                        <rect key="frame" x="136" y="43" width="100" height="100"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                            </view>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                    </view>
+                                    </stackView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OpG-8t-89j">
                                         <rect key="frame" x="0.0" y="185.5" width="375" height="106.5"/>
                                         <subviews>
@@ -141,7 +159,6 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="OpG-8t-89j" firstAttribute="top" secondItem="bZ0-78-FMM" secondAttribute="bottom" constant="2" id="7oo-8i-waI"/>
                                     <constraint firstItem="OpG-8t-89j" firstAttribute="top" secondItem="bbo-qs-spK" secondAttribute="top" constant="185.5" id="kmo-qI-MIX"/>
                                 </constraints>
                             </stackView>
@@ -174,6 +191,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="back_arrow" width="848" height="848"/>
         <image name="horinzotal_logo_project" width="395" height="95"/>
         <image name="ico_profil" width="397" height="397"/>
     </resources>

@@ -10,12 +10,17 @@ import UIKit
 
 class ProfilViewController: UIViewController {
     @IBOutlet weak var photoProfile: UIImageView!
-    
     @IBOutlet weak var fullnameProfil: UILabel!
     @IBOutlet weak var emailProfil: UILabel!
     @IBOutlet weak var backGroundProfil: UIView!
+    
+    @IBAction func backButton(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         
         photoProfile.image = profil.photo
         photoProfile.makeRounded()
@@ -28,7 +33,9 @@ class ProfilViewController: UIViewController {
         emailProfil.backgroundColor = UIColor(red: 243/255.0, green: 167/255.0, blue: 52/255.0, alpha: 1.0)
         emailProfil.textColor = UIColor.white
         
+        
     }
+    
 }
 
 extension UIImageView {
