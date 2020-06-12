@@ -36,7 +36,7 @@ extension ViewController: UITableViewDelegate{
         
         cell.namaBarang.text = barang.nama
         cell.hargaBarang.text = "Rp. \(barang.harga),00"
-        cell.photoBarang.image = barang.photo
+        cell.photoBarang.image = barang.ico
                 
         if  indexPath.row % 2 == 0 {
             cell.contentView.backgroundColor = UIColor(red: 243/255.0, green: 167/255.0, blue: 52/255.0, alpha: 1.0)

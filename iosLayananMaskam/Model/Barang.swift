@@ -9,8 +9,10 @@
 import UIKit
 
 struct Barang {
+    let ico: UIImage
     let photo: UIImage
     let nama: String
+    let desc: String
     let harga: Int
 }
 

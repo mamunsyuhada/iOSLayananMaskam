@@ -9,6 +9,11 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetailBarangViewController" customModule="iosLayananMaskam" customModuleProvider="target">
             <connections>
+                <outlet property="btnPinjam" destination="Lv2-8K-fvg" id="S3f-Zs-li3"/>
+                <outlet property="descBarang" destination="0qb-Fz-xvM" id="kbN-TO-sH7"/>
+                <outlet property="iconBarang" destination="hHz-3E-DD3" id="quA-gs-WRi"/>
+                <outlet property="imageBarang" destination="A6p-mz-fEl" id="BYG-na-j9X"/>
+                <outlet property="namaBarang" destination="EUZ-BY-vYz" id="3ya-AF-DAU"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

@@ -10,9 +10,14 @@ import UIKit
 
 class DetailBarangViewController: UIViewController {
 
+    @IBOutlet weak var iconBarang: UIImageView!
+    @IBOutlet weak var namaBarang: UILabel!
+    @IBOutlet weak var imageBarang: UIImageView!
+    @IBOutlet weak var descBarang: UILabel!
+    @IBOutlet weak var btnPinjam: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
     }
-
 }
