@@ -8,10 +8,8 @@
 
 import UIKit
 
-var profil = [
-    Profil(
-        photo:UIImage(named: "profil_sample")!,
-        fullname: "Imam Syuhada",
-        email:"imam.syuhada@mail.ugm.ac.id"
-    )
-]
+var profil : Profil = Profil(
+    photo:UIImage(named: "profil_sample")!,
+    fullname: "Imam Syuhada",
+    email:"imam.syuhada@mail.ugm.ac.id"
+)

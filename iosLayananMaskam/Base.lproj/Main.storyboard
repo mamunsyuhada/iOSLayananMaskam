@@ -86,15 +86,20 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7dQ-yK-6Vf">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="229"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horinzotal_logo_project" id="31o-df-VsW">
-                                        <rect key="frame" x="15" y="146" width="266" height="63"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Profil" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWF-Gb-KHs">
+                                        <rect key="frame" x="28" y="136" width="90.5" height="55"/>
+                                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="40"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.25882352939999997" green="0.28235294119999998" blue="0.38431372549999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="XWF-Gb-KHs" firstAttribute="leading" secondItem="7dQ-yK-6Vf" secondAttribute="leading" constant="28" id="IIt-FO-n1P"/>
                                     <constraint firstAttribute="width" constant="414" id="NlK-Gc-b2i"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="XWF-Gb-KHs" secondAttribute="trailing" constant="20" symbolic="YES" id="WT3-fl-x5t"/>
                                     <constraint firstAttribute="height" constant="229" id="ZPl-Dw-MFA"/>
+                                    <constraint firstAttribute="bottom" secondItem="XWF-Gb-KHs" secondAttribute="bottom" constant="38" id="iUK-zT-1AB"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bZ0-78-FMM">
@@ -145,6 +150,7 @@
                     <navigationItem key="navigationItem" title="Title" id="C4k-Y4-tCF"/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
+                        <outlet property="backGroundProfil" destination="bZ0-78-FMM" id="Jg0-pE-46w"/>
                         <outlet property="emailProfil" destination="qlz-Fp-mIm" id="MNl-Eu-Zns"/>
                         <outlet property="fullnameProfil" destination="u93-Hi-xhx" id="KOh-bP-qot"/>
                         <outlet property="photoProfile" destination="6uZ-rQ-1Qw" id="PIP-p2-odE"/>
