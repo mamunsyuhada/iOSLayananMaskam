@@ -96,5 +96,22 @@ var barangs: [Barang] = [
         desc: "Sofa bahan kain semisintetik [semi oscar] -- ( tahan robek ) rangka kayu solid, anti rayap, anti air busa d  udukan dari dacron empuk dapat: kursi dudukan 3orang 1buah, dudukan 1 orang 2 buah. Dudukkan 1-- panjang 97 cm, dalam 80 cm. Dudukkan 3 -- panjang sekitar 190 cm, dalam 80 cm. Tersedia warna: hitam, natural, bisa custom ke merah wash. Bisa upgred kain oscar regency, oscar jovy, semi leather mbtech",
         tersedia: 4,
         harga: 75000
+    ),
+    Barang(
+        ico:UIImage(named: "ic_toa")!,
+        photo:UIImage(named: "photo_toa")!,
+        nama: "Speaker Toa",
+        desc: "Rated Input Selection/Impedance : 10W, 5W (100V line). Frequency Response : 150 ~ 10.000Hz. Sound Pressure Level (1W/1m) : 90dB. Speaker Components : 2 units 12 cm Dynamic Speaker. Dimensions (WxHxD) : 167x335x141 mm. Weight : 3.4kg. Material : Extruded Aluminum casing with punched net grille. Color : Casing; Silver Gray, Grille : Black. Accessories : Bracket",
+        tersedia: 2,
+        harga: 100000
+    ),
+    Barang(
+        ico:UIImage(named: "ic_selang")!,
+        photo:UIImage(named: "photo_selang")!,
+        nama: "Selang",
+        desc: "Selang angin kompresor. Hose color : Green Black. Hose Diameter I.D / O.D : 8.5 x 14 mm. Working pressure : 200 psi. Panjang : 100 m",
+        tersedia: 3,
+        harga: 20000
     )
+
 ]
