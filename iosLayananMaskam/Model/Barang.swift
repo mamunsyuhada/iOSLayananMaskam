@@ -13,6 +13,7 @@ struct Barang {
     let photo: UIImage
     let nama: String
     let desc: String
+    let tersedia: Int
     let harga: Int
 }
 
