@@ -72,8 +72,29 @@ var barangs: [Barang] = [
         desc: "SONY M 100. Suara tajam & jelas. Tidak noise.Panjang kabel 3 m. Body elegan & mewah. Sangat nyaman digunakan untuk menyanyi dalam ruangan mau luar ruangan",
         tersedia: 5,
         harga: 45000
+    ),
+    Barang(
+        ico:UIImage(named: "ic_pisau")!,
+        photo:UIImage(named: "photo_pisau")!,
+        nama: "Pisau",
+        desc: "Bahan baja per asli pas untuk potong peralatan dapur. Panjang bilah 28 cm dan panjang sampai gagang 42 cm",
+        tersedia: 80,
+        harga: 55000
+    ),
+    Barang(
+        ico:UIImage(named: "ic_papan")!,
+        photo:UIImage(named: "photo_papan")!,
+        nama: "Papan Tulis",
+        desc: "Ket Apusan Dapat Nempel Di Papan Tulis dan Slot Spidol. 1 Pcs Whiteboard Magnet. 1 Pcs Spidol Faber Castell. 5 pcs Magnet. 1 Pcs Apusan Merk Gunindo. Ukuran 59 x 80 cm Tebal 9mm. Warna List Hitam Bahan Alumunium. Siku/Sudut Warna Hitam bahan Plastik Berkwalitas",
+        tersedia: 3,
+        harga: 4000
+    ),
+    Barang(
+        ico:UIImage(named: "ic_sofa")!,
+        photo:UIImage(named: "photo_sofa")!,
+        nama: "Sofa Tamu",
+        desc: "Sofa bahan kain semisintetik [semi oscar] -- ( tahan robek ) rangka kayu solid, anti rayap, anti air busa d  udukan dari dacron empuk dapat: kursi dudukan 3orang 1buah, dudukan 1 orang 2 buah. Dudukkan 1-- panjang 97 cm, dalam 80 cm. Dudukkan 3 -- panjang sekitar 190 cm, dalam 80 cm. Tersedia warna: hitam, natural, bisa custom ke merah wash. Bisa upgred kain oscar regency, oscar jovy, semi leather mbtech",
+        tersedia: 4,
+        harga: 75000
     )
 ]
-
-
-

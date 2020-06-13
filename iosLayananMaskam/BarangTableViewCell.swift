@@ -10,12 +10,12 @@ import UIKit
 
 class BarangTableViewCell: UITableViewCell {
     @IBOutlet weak var photoBarang: UIImageView!
-    @IBOutlet weak var hargaBarang: UILabel!
     @IBOutlet weak var namaBarang: UILabel!
+    @IBOutlet weak var tersediaBarang: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

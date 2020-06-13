@@ -23,7 +23,7 @@
                             <constraint firstAttribute="height" constant="50" id="EBz-M9-qnR"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rp. Harga" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1k0-5o-Bmw">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tesedia" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1k0-5o-Bmw">
                         <rect key="frame" x="83" y="35" width="161" height="21"/>
                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -51,9 +51,9 @@
             </tableViewCellContentView>
             <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
             <connections>
-                <outlet property="hargaBarang" destination="1k0-5o-Bmw" id="V8N-0q-emC"/>
                 <outlet property="namaBarang" destination="D2Y-wB-3dc" id="7yg-9o-qX8"/>
                 <outlet property="photoBarang" destination="mny-6K-XSq" id="HJG-3e-ie8"/>
+                <outlet property="tersediaBarang" destination="1k0-5o-Bmw" id="DbC-Qx-gDx"/>
             </connections>
             <point key="canvasLocation" x="97.101449275362327" y="89.732142857142847"/>
         </tableViewCell>

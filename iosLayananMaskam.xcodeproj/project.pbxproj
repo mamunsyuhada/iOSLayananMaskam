@@ -116,6 +116,7 @@
 		6FAF5F2824792FAE00233ADA /* iosLayananMaskam */ = {
 			isa = PBXGroup;
 			children = (
+				6FCBD1202495300B0035B32C /* AppIcons */,
 				6FAE770E2490E2E200DB02FE /* Base */,
 				6FAE770D2490E2B800DB02FE /* View */,
 				6FAE770C2490E2A500DB02FE /* Model */,
@@ -124,6 +125,13 @@
 				6FAF5F3724792FB000233ADA /* Info.plist */,
 			);
 			path = iosLayananMaskam;
+			sourceTree = "<group>";
+		};
+		6FCBD1202495300B0035B32C /* AppIcons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppIcons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
