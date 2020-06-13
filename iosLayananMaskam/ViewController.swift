@@ -35,7 +35,7 @@ extension ViewController: UITableViewDataSource{
         let barang = barangs[indexPath.row]
         
         cell.namaBarang.text = barang.nama
-        cell.hargaBarang.text = "Rp. \(barang.harga),00"
+        cell.hargaBarang.text = "Rp. \(barang.harga),00/hari"
         cell.photoBarang.image = barang.ico
                 
         if  indexPath.row % 2 == 0 {
