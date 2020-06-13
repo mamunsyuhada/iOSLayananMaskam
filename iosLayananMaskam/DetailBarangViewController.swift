@@ -32,4 +32,17 @@ class DetailBarangViewController: UIViewController {
             btnPinjam.setTitle("Pinjam Rp.  \(result.harga)/hari", for: .normal)
         }
     }
+    
+    @IBAction func btnPinjam(_ sender: Any) {
+        let urlBarang = barang?.nama.replacingOccurrences(of: " ", with: "")
+        
+        if let url = URL(string: "https://api.whatsapp.com/send?phone=6285723910307&text=Permisi,%20saya%20ingin%20meminjam%20\(urlBarang ?? "barang")%2E%20Bagaimana%20mekanismenya%3F%0ATrimakasih") {
+            if #available(iOS 10, *){
+                UIApplication.shared.open(url)
+            }
+            else{
+                UIApplication.shared.openURL(url)
+            }
+        }
+    }
 }
