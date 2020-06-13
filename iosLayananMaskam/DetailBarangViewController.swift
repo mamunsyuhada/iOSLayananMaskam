@@ -15,8 +15,8 @@ class DetailBarangViewController: UIViewController {
     @IBOutlet weak var imageBarang: UIImageView!
     @IBOutlet weak var descBarang: UILabel!
     @IBOutlet weak var btnPinjam: UIButton!
-    @IBOutlet weak var hargaBarang: UILabel!
     @IBOutlet weak var tersediaBarang: UILabel!
+    
     
     var barang: Barang?
     
@@ -27,9 +27,9 @@ class DetailBarangViewController: UIViewController {
             iconBarang.image = result.ico
             namaBarang.text = result.nama
             imageBarang.image = result.photo
-            hargaBarang.text = "Rp. \(result.harga),00/hari"
             descBarang.text = result.desc
             tersediaBarang.text = "\(result.tersedia) pcs"
+            btnPinjam.setTitle("Pinjam Rp.  \(result.harga)/hari", for: .normal)
         }
     }
 }

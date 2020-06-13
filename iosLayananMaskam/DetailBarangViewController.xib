@@ -11,11 +11,10 @@
             <connections>
                 <outlet property="btnPinjam" destination="Lv2-8K-fvg" id="S3f-Zs-li3"/>
                 <outlet property="descBarang" destination="0qb-Fz-xvM" id="kbN-TO-sH7"/>
-                <outlet property="hargaBarang" destination="Sng-5s-mH2" id="u0g-C9-4ro"/>
                 <outlet property="iconBarang" destination="hHz-3E-DD3" id="quA-gs-WRi"/>
                 <outlet property="imageBarang" destination="A6p-mz-fEl" id="BYG-na-j9X"/>
                 <outlet property="namaBarang" destination="EUZ-BY-vYz" id="3ya-AF-DAU"/>
-                <outlet property="tersediaBarang" destination="FJZ-Nx-74P" id="Cu1-fk-tFC"/>
+                <outlet property="tersediaBarang" destination="FJZ-Nx-74P" id="8Zb-AE-rlF"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -77,17 +76,11 @@
                         <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </state>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="bottom" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deskripsi" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qb-Fz-xvM">
-                    <rect key="frame" x="20" y="507.5" width="374" height="215"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="TopLeft" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Desc" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qb-Fz-xvM">
+                    <rect key="frame" x="20" y="425.5" width="374" height="127"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="215" id="8u9-Ud-z4Y"/>
+                        <constraint firstAttribute="height" constant="127" id="8u9-Ud-z4Y"/>
                     </constraints>
-                    <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
-                    <nil key="textColor"/>
-                    <nil key="highlightedColor"/>
-                </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Harga" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sng-5s-mH2">
-                    <rect key="frame" x="20" y="437" width="374" height="62"/>
                     <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -101,19 +94,15 @@
                 <constraint firstItem="0qb-Fz-xvM" firstAttribute="leading" secondItem="Lv2-8K-fvg" secondAttribute="leading" id="3S7-jV-BBJ"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="A6p-mz-fEl" secondAttribute="trailing" id="4CC-eh-vuN"/>
                 <constraint firstItem="Lv2-8K-fvg" firstAttribute="centerX" secondItem="A6p-mz-fEl" secondAttribute="centerX" id="4E4-hg-eoQ"/>
-                <constraint firstItem="0qb-Fz-xvM" firstAttribute="top" secondItem="Sng-5s-mH2" secondAttribute="bottom" constant="8.5" id="Fas-tX-Imh"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="Lus-al-F5a" secondAttribute="top" constant="44" id="Ii6-5R-QnL"/>
                 <constraint firstItem="A6p-mz-fEl" firstAttribute="trailing" secondItem="Lus-al-F5a" secondAttribute="trailing" id="XEQ-zE-XaC"/>
                 <constraint firstItem="A6p-mz-fEl" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="184" id="ftX-Yz-yop"/>
-                <constraint firstItem="Sng-5s-mH2" firstAttribute="leading" secondItem="0qb-Fz-xvM" secondAttribute="leading" id="fwq-sB-9WR"/>
-                <constraint firstItem="Sng-5s-mH2" firstAttribute="trailing" secondItem="0qb-Fz-xvM" secondAttribute="trailing" id="hvG-Ur-3ie"/>
                 <constraint firstItem="A6p-mz-fEl" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="pAU-Al-n0J"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="Lv2-8K-fvg" secondAttribute="bottom" constant="18.000000000000227" id="pK6-t1-vSW"/>
-                <constraint firstItem="0qb-Fz-xvM" firstAttribute="firstBaseline" secondItem="A6p-mz-fEl" secondAttribute="baseline" constant="109.5" id="sFR-Sr-AT5"/>
+                <constraint firstItem="0qb-Fz-xvM" firstAttribute="firstBaseline" secondItem="A6p-mz-fEl" secondAttribute="baseline" constant="24.5" symbolType="layoutAnchor" id="sFR-Sr-AT5"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Lus-al-F5a" secondAttribute="trailing" id="vpd-13-FOJ"/>
                 <constraint firstItem="A6p-mz-fEl" firstAttribute="top" secondItem="Lus-al-F5a" secondAttribute="bottom" constant="-1" id="wvS-c4-Ss0"/>
                 <constraint firstItem="Lv2-8K-fvg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="19.988749908928128" id="y8B-X3-bGe"/>
-                <constraint firstItem="Sng-5s-mH2" firstAttribute="top" secondItem="A6p-mz-fEl" secondAttribute="bottom" constant="22" id="yeT-4t-H7W"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <point key="canvasLocation" x="140.57971014492756" y="107.8125"/>
