@@ -112,6 +112,15 @@ var barangs: [Barang] = [
         desc: "Selang angin kompresor. Hose color : Green Black. Hose Diameter I.D / O.D : 8.5 x 14 mm. Working pressure : 200 psi. Panjang : 100 m",
         tersedia: 3,
         harga: 20000
+    ),
+    Barang(
+        ico:UIImage(named: "ic_kipas")!,
+        photo:UIImage(named: "photo_kipas")!,
+        nama: "Kipas Gantung",
+        desc: "Perlindungan Thermofuse. Tidak Berisik. Motor kuat. Kipas 14cm / 16 inch. Power 220 V- 50 HZ, MOF- 401P. Graansi Resmi 2th",
+        tersedia: 99,
+        harga: 64000
     )
+
 
 ]
