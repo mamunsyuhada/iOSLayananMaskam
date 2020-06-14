@@ -7,4 +7,4 @@
 ![demo](wiki-images/demo.gif)
 
 ## Passed
-![ceritificate](wiki-images/sertifikat_course_171_166890_140620105842.pdf)
+![ceritificate](wiki-images/sertifikat.pdf)
